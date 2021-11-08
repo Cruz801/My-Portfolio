@@ -1,6 +1,7 @@
 
 .header a {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     font-size: 35px;
     font-family: cursive;
@@ -20,26 +21,32 @@ header h1 {
     flex-wrap: wrap;
 }
 .nav {
-    width:50%;
-    margin: 0;
-    padding: 0;
-    text-align: left;
-   list-style: none;
-   display:inline;
-   font-weight: bold;
-   position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    
 }
 
 .cruz h2 {
+    display: flex;
+    justify-content: end;
     color: #fff;
+    
 }
 
 .cruz h2:hover {
     color: blue;
+    font-size: 28px;
 }
 
 .portfolio h2 {
     color: #fff;
+    width: 0;
+}
+
+.portfolio h2:hover {
+    color: blue;
+    font-size: 28px;
 }
 
 .image {
@@ -57,6 +64,8 @@ header h1 {
   
 
 li a {
+    display: flex;
+    flex-wrap: wrap;
     text-decoration: none;
     float: right;
     
@@ -68,17 +77,16 @@ li a:hover {
 }
 
 .nav a {
-    flex: flex;
+    display: flex;
     flex-wrap: wrap;
     text-decoration: none;
     display: inline-block;
-    display:inline-block;
     padding:10px; 
     color: #fff;
 }
 
 .nav li{
-    flex: flex;
+    display: flex;
     flex-wrap: flex;
     margin: 20px;
     text-align: center;
@@ -89,7 +97,6 @@ li a:hover {
 }
 
 body {
-    background-color: rgb(70, 69, 69);
     background-image: url(https://visitutahkenticoprod.blob.core.windows.net/cmsroot/visitutah/media/site-assets/three-season-photography/wasatch-metro/salt-lake-city/web2000__salt-lake-city_skyline_fall_-jay_dash_photography_img_0528.jpg);
    background-size: cover;
 
@@ -103,6 +110,7 @@ margin:15px;
 
 .cruz p {
     font-size: 20px;
+    color: #fff;
 }
 
 
@@ -112,22 +120,33 @@ margin:15px;
 }
 
 .portfolio {
+    margin: 2%;
+}
+
+.portfolio-flex {
     display: flex;
+    flex-wrap: wrap;
     justify-content: end;
     height: 80%;
 }
 
-.portfolio h2 {
+.contact h2 {
     display: flex;
+    margin: 2%;
 }
-
 .flex-cruz {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
     justify-content: right;
 }
 .contact {
     color: #fff;
-    
+}
+
+.contact h2:hover {
+    color: blue;
+    font-size: 28px;
 }
 
 .contact p {
@@ -139,13 +158,29 @@ margin:15px;
 
 
 
-@media screen and (max-width: 980px) {
-
+@media screen and (max-width: 1024px) {
+    .cruz p{
+        font-size: 18px;
+    }
+    body {
+        background-size: cover;
+    }
+.nav{
+    font-size: 20px;
+}
 
 }
 
     @media screen and (max-width: 575px) {
+        .cruz p{
+            font-size: 16px;
+        }
+        portfolio-flex:{
+            flex-shrink: 1;
+        }
 
+        .nav{
+            font-size: 18px;
+        }
 
-}
-        
+    }    
