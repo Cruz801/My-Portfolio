@@ -111,15 +111,28 @@ margin:15px;
     height: 400%;
 }
 
+.portfolio {
+    display: flex;
+    justify-content: end;
+    height: 80%;
+}
+
+.portfolio h2 {
+    display: flex;
+}
+
+.flex-cruz {
+    display: flex;
+    justify-content: right;
+}
 .contact {
     color: #fff;
+    
 }
 
 .contact p {
-    font-size: 20px;
-    display: inline-block;
-    text-align: center;
-    
+    font-size: 25px;
+
 }
 
 
