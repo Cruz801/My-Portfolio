@@ -27,6 +27,39 @@ header h1 {
     
 }
 
+li a {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    float: right;
+    
+}
+
+li a:hover {
+    text-decoration: none;
+    color:rgb(27, 9, 194);
+}
+
+.nav a {
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    padding:10px; 
+    color: #fff;
+}
+
+.nav li{
+    display: flex;
+    flex-wrap: flex;
+    margin: 20px;
+    text-align: center;
+    padding: 4px;
+    font-size: 25px;
+    display:inline;
+ 
+}
+
+
 .cruz h2 {
     display: flex;
     justify-content: end;
@@ -63,38 +96,7 @@ header h1 {
 }
   
 
-li a {
-    display: flex;
-    flex-wrap: wrap;
-    text-decoration: none;
-    float: right;
-    
-}
 
-li a:hover {
-    text-decoration: none;
-    color:rgb(27, 9, 194);
-}
-
-.nav a {
-    display: flex;
-    flex-wrap: wrap;
-    text-decoration: none;
-    display: inline-block;
-    padding:10px; 
-    color: #fff;
-}
-
-.nav li{
-    display: flex;
-    flex-wrap: flex;
-    margin: 20px;
-    text-align: center;
-    padding: 4px;
-    font-size: 25px;
-    display:inline;
- 
-}
 
 body {
     background-image: url(https://visitutahkenticoprod.blob.core.windows.net/cmsroot/visitutah/media/site-assets/three-season-photography/wasatch-metro/salt-lake-city/web2000__salt-lake-city_skyline_fall_-jay_dash_photography_img_0528.jpg);
