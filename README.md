@@ -1,7 +1,7 @@
 # My-Portfolio
-I made this webpage as a base start for my professional portfolio for this course as well as my carrer
+I made this webpage as a base start for my professional portfolio for this course as well as my career
 ## Built With
-Used HTML and CSS to make this website possible. still learning so I will be updating this portfolio throughtout the course and my carrer.
+Used HTML and CSS to make this website possible. still learning so I will be updating this portfolio throughtout the course and my career.
 ## Website 
 https://cruz801.github.io/My-Portfolio/
 [Screenshot (23)](https://user-images.githubusercontent.com/92316250/140789236-ccf3dcd1-2f73-465e-bc34-8a10baf6983a.png)
